@@ -129,11 +129,12 @@ window.addEventListener('resize', () => {
 });
 
 //获取图片url
-// function extractValue(input) {
-//   var valueRegex = /\("([^\s]+)"\)/g;
-//   var match = valueRegex.exec(input);
-//   return match[1];
-// }
+function extractValue(input) {
+  var valueRegex = /\("([^\s]+)"\)/g;
+  var match = valueRegex.exec(input);
+  return match ? match[1] : ''; // 如果没有匹配到，返回一个空字符串
+}
+
 
 //空格控制音乐
 document.addEventListener("keydown", function(event) {

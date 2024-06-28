@@ -96,12 +96,12 @@ var heo = {
       });
     }
 
-    
+
   },
   getCustomPlayList: function() {
     const heoMusicPage = document.getElementById("heoMusic-page");
     const playlistType = params.get("type") || "playlist";
-    
+
     if (params.get("id") && params.get("server")) {
       console.log("获取到自定义内容")
       var id = params.get("id")
@@ -129,11 +129,11 @@ window.addEventListener('resize', () => {
 });
 
 //获取图片url
-function extractValue(input) {
-  var valueRegex = /\("([^\s]+)"\)/g;
-  var match = valueRegex.exec(input);
-  return match[1];
-}
+// function extractValue(input) {
+//   var valueRegex = /\("([^\s]+)"\)/g;
+//   var match = valueRegex.exec(input);
+//   return match[1];
+// }
 
 //空格控制音乐
 document.addEventListener("keydown", function(event) {
@@ -188,7 +188,7 @@ ap.skipBack();
       }else {
         document.querySelector('meting-js').aplayer.volume(volume,true);
       }
-      
+
     }
   }
 });

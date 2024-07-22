@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/aligu_music_4everland.iml" filepath="$PROJECT_DIR$/.idea/aligu_music_4everland.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/aligu_music.iml" filepath="$PROJECT_DIR$/.idea/aligu_music.iml" />
     </modules>
   </component>
 </project>
